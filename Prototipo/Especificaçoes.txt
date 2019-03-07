@@ -1,0 +1,7 @@
+Letra
+- Titulo(Arial ou Helvetica bold)
+-Subtitulos (Georgia)
+
+Cores
+-#f26f90
+-#1f173d

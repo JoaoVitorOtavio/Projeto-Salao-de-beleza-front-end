@@ -1,0 +1,99 @@
+/* Estilo para tablet */
+@media only screen and (min-width:768px) and (max-width:959px){
+
+
+	.container{
+		width: 741px;
+	}
+	/* introducao */
+	.introducao h1{
+		font-size: 44px;	
+	}
+	
+	.sobre:after ,.sobre img{
+		display: none;
+	}
+
+	header .logomenu{
+		width: 145px;
+	}
+
+
+	/* FOooter */
+	.footer h3 {
+		font-size: 17px;
+	}
+	.grid-1-3 {
+		width: 227px;
+	}
+
+	.grid-4 {
+		width: 161px;
+	}
+
+	.grid-8{
+		width: 350px;
+	}
+
+	.grid-16{
+		width: 721px;
+	}
+}
+
+/* estilo para smartphone */
+@media only screen and (max-width:767px) {
+	/* HEADER */
+	.header{
+		position: relative;	
+		padding:  0;
+		margin: 0;
+	}
+
+	.header .logomenu{
+		display: none;
+	}
+
+	.header_menu{
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	.header_menu ul li{
+		margin: 5px;
+		margin-top: 0;
+	}
+
+	.header_menu ul li a{
+		border: 4px solid #000;
+		width: 136px;
+		display: block;
+		float: left;
+	}
+
+	/* INTRODUCAO */
+	.introducao{
+		margin-top: 0;
+		padding-top: 20px;
+	}
+
+	/* Sobre */
+	.sobre .subtitulo{
+		/* background-color: rgb(78, 78, 83); */
+		margin-bottom: -20px;
+	}
+
+	/* SERVIÇOS */
+	.serviços_lista p{
+		padding-bottom: 20px;
+		/* background-color: blue;	 */
+	}
+	/* SOBRE */
+
+	.sobre:after ,.sobre img{
+		display: none;
+	}
+
+	.call{
+		padding: 10px 10px;
+	}
+}

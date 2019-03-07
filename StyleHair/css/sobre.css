@@ -1,0 +1,94 @@
+.footer{
+	margin-top: 200px;
+}
+
+/*Arrumando a primeira imagem com descriçao*/
+.pag-sobre{
+	width: 100%;
+	height: 170px;
+	background: url(../Imagens/sobre-imagemtopo.jpg) no-repeat center;
+	background-size: cover;
+	margin-top: 76px;
+	text-align: center;
+	padding-top: 2px;
+}
+
+.pag-sobre .container{
+	margin-top: -50px;
+}
+.pag-sobre h1:after {
+	content: "";
+	display:block;
+	width:60px;
+	height: 3px;
+	background: #fff;
+	margin: 5px auto ;
+}
+.pag-sobre h1 {
+	font-size: 35px;
+}
+
+.pag-sobre p{
+	color: #fff; 
+}
+/*FIM DA primeira imagem com descriçao*/
+
+.meio {
+	padding-top: 60px;
+	margin-bottom: -5px;
+	background: #c9d0d6;
+	width: 	100%;
+}
+.meio .titulo-texto{
+	font-weight: bold;
+	line-height: 30px;
+	font-size: 21px;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	margin-left:194px; 
+	margin-top: 0 auto;
+	margin-bottom: 20px;
+}
+
+.meio p{
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: 22px;
+	margin-left:194px; 
+	width: 520px;
+}
+
+.meio ul li{
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+	margin-left:194px; 
+}
+
+.meio .grid-9{
+	margin-right: 130px;
+}
+
+.meio .titulo-texto:after{
+	content: "";
+	display:block;
+	width:60px;
+	height: 3px;
+	background: #000;
+	margin-left: 0;
+	margin-bottom: -5px;
+	margin-top: 5px;
+	clear: both;
+}
+
+.meio img{
+	margin-top: 60px;
+	width: 100%;
+	margin-left:190px;
+	margin-bottom: 60px;
+}
+
+.sobre .grid-1-3{
+	margin-top: 2px;
+}
